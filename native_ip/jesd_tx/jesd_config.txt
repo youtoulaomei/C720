@@ -1,0 +1,8 @@
+AD配置 dual link  LMFS 2221
+mode·3
+DA chip
+ad9172 datasheet page32 tab16
+fpga：
+采样率		186.6 Msps
+LanRate 		3.733333 Gbps
+GT Ref clk 	93.333 MHz

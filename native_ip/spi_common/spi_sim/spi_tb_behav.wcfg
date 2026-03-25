@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="spi_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="spi_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.016000 us"></ZoomStartTime>
+      <ZoomEndTime time="13.236001 us"></ZoomEndTime>
+      <Cursor1Time time="4.656000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="304"></NameColumnWidth>
+      <ValueColumnWidth column_width="283"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="32" />
+   <wvobject fp_name="/spi_tb/clk_100m" type="logic">
+      <obj_property name="ElementShortName">clk_100m</obj_property>
+      <obj_property name="ObjectShortName">clk_100m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tb/hard_rst" type="logic">
+      <obj_property name="ElementShortName">hard_rst</obj_property>
+      <obj_property name="ObjectShortName">hard_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tb/cpu_cs" type="logic">
+      <obj_property name="ElementShortName">cpu_cs</obj_property>
+      <obj_property name="ObjectShortName">cpu_cs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tb/cpu_wr" type="logic">
+      <obj_property name="ElementShortName">cpu_wr</obj_property>
+      <obj_property name="ObjectShortName">cpu_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tb/cpu_rd" type="logic">
+      <obj_property name="ElementShortName">cpu_rd</obj_property>
+      <obj_property name="ObjectShortName">cpu_rd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tb/cpu_addr" type="array">
+      <obj_property name="ElementShortName">cpu_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cpu_addr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tb/cpu_wr_data" type="array">
+      <obj_property name="ElementShortName">cpu_wr_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cpu_wr_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tb/cpu_rd_data" type="array">
+      <obj_property name="ElementShortName">cpu_rd_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cpu_rd_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tb/u_spi_common/u_spi_common_phy/spi_phy_start_reg" type="array">
+      <obj_property name="ElementShortName">spi_phy_start_reg[1:0]</obj_property>
+      <obj_property name="ObjectShortName">spi_phy_start_reg[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tb/u_spi_common/u_spi_common_phy/half_period" type="array">
+      <obj_property name="ElementShortName">half_period[15:0]</obj_property>
+      <obj_property name="ObjectShortName">half_period[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tb/u_spi_common/u_spi_common_phy/half_period_cnt" type="array">
+      <obj_property name="ElementShortName">half_period_cnt[15:0]</obj_property>
+      <obj_property name="ObjectShortName">half_period_cnt[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tb/u_spi_common/u_spi_common_phy/half_period_flag" type="logic">
+      <obj_property name="ElementShortName">half_period_flag</obj_property>
+      <obj_property name="ObjectShortName">half_period_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tb/u_spi_common/u_spi_common_phy/spi_phy_start" type="logic">
+      <obj_property name="ElementShortName">spi_phy_start</obj_property>
+      <obj_property name="ObjectShortName">spi_phy_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tb/u_spi_common/u_spi_common_phy/spi_phy_module_start" type="logic">
+      <obj_property name="ElementShortName">spi_phy_module_start</obj_property>
+      <obj_property name="ObjectShortName">spi_phy_module_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tb/u_spi_common/u_spi_common_phy/state" type="array">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tb/u_spi_common/u_spi_common_phy/tx_rd_data_r" type="array">
+      <obj_property name="ElementShortName">tx_rd_data_r[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_rd_data_r[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tb/sck" type="logic">
+      <obj_property name="ElementShortName">sck</obj_property>
+      <obj_property name="ObjectShortName">sck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tb/u_spi_common/u_spi_common_phy/bit_cnt" type="array">
+      <obj_property name="ElementShortName">bit_cnt[2:0]</obj_property>
+      <obj_property name="ObjectShortName">bit_cnt[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tb/ss_n" type="logic">
+      <obj_property name="ElementShortName">ss_n</obj_property>
+      <obj_property name="ObjectShortName">ss_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tb/mosi" type="logic">
+      <obj_property name="ElementShortName">mosi</obj_property>
+      <obj_property name="ObjectShortName">mosi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tb/miso" type="logic">
+      <obj_property name="ElementShortName">miso</obj_property>
+      <obj_property name="ObjectShortName">miso</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tb/u_spi_common/u_spi_common_phy/state3_mosi" type="logic">
+      <obj_property name="ElementShortName">state3_mosi</obj_property>
+      <obj_property name="ObjectShortName">state3_mosi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tb/u_spi_common/u_spi_common_phy/mosi" type="logic">
+      <obj_property name="ElementShortName">mosi</obj_property>
+      <obj_property name="ObjectShortName">mosi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tb/u_spi_common/u_spi_common_phy/mosi_reg" type="logic">
+      <obj_property name="ElementShortName">mosi_reg</obj_property>
+      <obj_property name="ObjectShortName">mosi_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tb/u_spi_common/u_spi_common_phy/state3_en" type="logic">
+      <obj_property name="ElementShortName">state3_en</obj_property>
+      <obj_property name="ObjectShortName">state3_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tb/u_spi_common/u_spi_common_phy/spi_3line_en" type="logic">
+      <obj_property name="ElementShortName">spi_3line_en</obj_property>
+      <obj_property name="ObjectShortName">spi_3line_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tb/u_spi_common/u_spi_cib/spi_3line_en" type="logic">
+      <obj_property name="ElementShortName">spi_3line_en</obj_property>
+      <obj_property name="ObjectShortName">spi_3line_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tb/miso_data" type="array">
+      <obj_property name="ElementShortName">miso_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">miso_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tb/bitptr" type="array">
+      <obj_property name="ElementShortName">bitptr[2:0]</obj_property>
+      <obj_property name="ObjectShortName">bitptr[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_tb/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+</wave_config>
